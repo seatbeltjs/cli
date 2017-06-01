@@ -1,0 +1,29 @@
+{
+  "name": "@seatbelt/cli",
+  "version": "0.0.1",
+  "description": "SeatbeltJS CLI helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "seatbelt",
+    "js",
+    "typescript",
+    "ts",
+    "framework",
+    "cli"
+  ],
+  "author": "Thomas Meadows",
+  "license": "MIT",
+  "bin": {
+    "seatbelt": "index.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "empty-dir": "^0.2.1",
+    "inquirer": "^3.0.6",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1"
+  }
+}
