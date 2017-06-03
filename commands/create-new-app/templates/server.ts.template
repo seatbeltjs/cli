@@ -1,14 +1,8 @@
-import { DRestify } from '@seatbelt/server-restify';
-// import { DHapi } from '@seatbelt/server-hapi';
-// import { DExpress } from '@seatbelt/server-express';
-// import { DKoa } from '@seatbelt/server-koa';
+import { <%= serverDecoratorName %> } from '<%= serverPackageName %>';
 import { IServer } from '@seatbelt/core';
 import { waterlinePlugin } from '@seatbelt/orm-waterline';
 
-@DRestify()
-// @DHapi()
-// @DExpress()
-// @DKoa()
+@<%= serverDecoratorName %>()
 export class Server implements IServer {
   public plugins = [
     waterlinePlugin({
