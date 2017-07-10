@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/@seatbelt/cli.png)](https://nodei.co/npm/@seatbelt/cli/)
+
 ###Seatbelt cli
 
 A cli tool for seatbelt to create new applications
