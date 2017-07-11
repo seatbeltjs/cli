@@ -1,10 +1,12 @@
 [![NPM](https://nodei.co/npm/@seatbelt/cli.png)](https://nodei.co/npm/@seatbelt/cli/)
 
-###Seatbelt cli
+[![codebeat badge](https://codebeat.co/badges/e0fc5913-7079-42d6-b695-8b99b171745d)](https://codebeat.co/projects/github-com-seatbeltjs-cli-master)
+
+### Seatbelt cli
 
 A cli tool for seatbelt to create new applications
 
-###install
+### install
 
 1) Install the cli utilities
 
